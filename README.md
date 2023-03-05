@@ -14,3 +14,5 @@ The main system occupies 12HP.
 System Expansion for Multi-Channel Opration
 
 A 'Slave' system, also in 12HP, offers another two channels of multiplexing under the control of the main system. The 'X' channel of the slave unit also has potentiometers offering voltages to its normalled inputs. The slave system is connected to the main syatem by a ribbon cable but requires an independant eurorack power cable. 
+
+Multiple 'slaves' can be driven by a single main system, allowing 4, 6, 8 ... channel mutiplexer systems to be constructed.
