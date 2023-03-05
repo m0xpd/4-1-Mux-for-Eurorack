@@ -1,6 +1,6 @@
 # A Dual Channel 4:1 Multiplexer for Eurorack
 
-This project describes a multiplexer (similar to a "sequential switch") for use in electronic music applications.
+This project describes a multiplexer (similar to a "sequential switch") for electronic music applications.
 
 ![MUX Front Panel](https://user-images.githubusercontent.com/3152962/222978851-0f6b30ae-8034-4069-99ba-0095303d9603.jpg)
 
