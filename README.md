@@ -1,5 +1,4 @@
-# 4-1-Mux-for-Eurorack
-A Dual Channel 4:1 Multiplexer for Eurorack Synthesizers
+# A Dual Channel 4:1 Multiplexer for Eurorack Synthesizers
 
 This project describes a multiplexer (similar to a "sequential switch") for use in electronic music applications.
 
@@ -13,7 +12,7 @@ The system is implemented using a conventional CMOS analog multiplexer, which is
 
 The main system occupies 12HP.
 
-System Expansion for Multi-Channel Opration
+# System Expansion for Multi-Channel Operation
 
 A 'Slave' system, also in 12HP, offers another two channels of multiplexing under the control of the main system. 
 
