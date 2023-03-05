@@ -1,4 +1,4 @@
-# A Dual Channel 4:1 Multiplexer for Eurorack Synthesizers
+# A Dual Channel 4:1 Multiplexer for Eurorack
 
 This project describes a multiplexer (similar to a "sequential switch") for use in electronic music applications.
 
