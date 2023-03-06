@@ -4,7 +4,7 @@ Eagle files defining the schematics and PCB designs for the main multiplexer and
 
 Kicad projects, describing Front Panels for the main multiplexer and the slave.
 
-Initial versions of the pcb's and the front panels have been fabricated at https://jlcpcb.com/ (usual disclaimer)
+Initial versions of the pcbs and the front panels have been fabricated at https://jlcpcb.com/ (usual disclaimer)
 who delivered their usual high quality service. 
 
 You can see the result of uploading the main multiplexer pcb gerbers to JLPCB's quote page here: 
