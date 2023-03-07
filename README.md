@@ -14,6 +14,8 @@ The system is based upon a conventional CMOS analog multiplexer, which is operat
 
 The expense of precision resistors for the input attenuators was avoided by measuring and selecting from 1% stock. It was found easy to achieve 0.1% equivalent tolerance in system gain.   
 
+The main multiplexer module draws 25mA from the 12V supply and 4mA from the -12V supply.
+
 # System Expansion for Multi-Channel Operation
 
 A 'Slave' system, also in 12HP, provides another two channels of multiplexing under the control of the main system. 
@@ -23,5 +25,7 @@ A 'Slave' system, also in 12HP, provides another two channels of multiplexing un
 The 'X' channel of the slave unit also has potentiometers offering four voltages to its normalled inputs. 
 
 The slave system is connected to the main system by a ribbon cable, which allows the slave multiplexer to track the switching sequence of the main controller. The slave unit requires an independant eurorack power cable. 
+
+The slave multiplexer module draws 4mA from the 12V supply and 3mA from the -12V supply.
 
 Multiple 'slaves' can be driven by a single main system, allowing 4, 6, 8 ... channel mutiplexer systems to be constructed.
