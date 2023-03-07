@@ -28,4 +28,4 @@ The slave system is connected to the main system by a ribbon cable, which allows
 
 The slave multiplexer module draws 4mA from the 12V supply and 3mA from the -12V supply.
 
-Multiple 'slaves' can be driven by a single main system, allowing 4, 6, 8 ... channel mutiplexer systems to be easily constructed.
+Multiple 'slaves' can be driven by a single main system, allowing 4, 6, 8 ... channel 4:1 mutiplexer systems to be easily constructed.
