@@ -8,7 +8,7 @@ The main system, implemented in a 12HP module, has two 4:1 multiplexers, each of
 
 The main system also features four potentiometers to generate voltages which are normalled to the 'X' channel inputs of the multiplexer, making it easy to (e.g.) generate CV sequences etc..
 
-Unlike some 'sequential switches', the system is unidirectional; it passes signals only from inputs to outputs.
+Note that, unlike some 'sequential switches' (such as the Doepfer A151), the system is unidirectional; it passes signals only from inputs to outputs. 
 
 The system is based upon a conventional  4052 CMOS analog multiplexer, which is operated between -5V and +5V (to allow safe passage of bipolar signals). Signals are first attenuated (by around 10dB) by passive attenuators before entering the multiplexer and subsequently amplified to restore the signal level. This allows full-scale 'Eurorack' signals to be handled and avoids the non-linearity at the extremes of the multiplexer's transfer characteristic. The system is implemented using Surface Mount components (1206) and the multiplexer switching control is achieved by an Arduino Nano. Although the microcontroller's processing speed will never allow this system to be as fast as pure hardware multiplexers, it has been shown capable of clocking the inputs at frequencies over 2kHz using the code in the 'Controller' folder of this repository (this was with an external clock, of course - the internal clock has been programmed such that the 'rate' control delevers clock frequencies between 0.25 Hz to 13.5 Hz).
 
