@@ -10,11 +10,11 @@ The main system also features four potentiometers to generate voltages which are
 
 Unlike some 'sequential switches', the system is unidirectional; it passes signals only from inputs to outputs.
 
-The system is based upon a conventional CMOS analog multiplexer, which is operated between -5V and +5V (to allow the passage of bipolar signals). Signals are first attenuated (by ~10dB) by precision passive attenuators before entering the multiplexer and subsequently amplified to restore the signal level. This allows full-scale 'Eurorack' signals to be handled and avoids the non-linearity at the extremes of the multiplexer's transfer characteristic. The system is implemented using Surface Mount components (1206) and the control is achieved by an Arduino Nano. Although the microcontroller's processing speed will never allow this system to be as fast as pure hardware multiplexers, it has been shown capable of clocking the inputs at frequencies over 2kHz using the code in the 'Controller' folder (this was with an external clock, of course - the internal clock runs from 0.25 to around 13.5 Hz).
+The system is based upon a conventional  4052 CMOS analog multiplexer, which is operated between -5V and +5V (to allow safe passage of bipolar signals). Signals are first attenuated (by around 10dB) by passive attenuators before entering the multiplexer and subsequently amplified to restore the signal level. This allows full-scale 'Eurorack' signals to be handled and avoids the non-linearity at the extremes of the multiplexer's transfer characteristic. The system is implemented using Surface Mount components (1206) and the multiplexer switching control is achieved by an Arduino Nano. Although the microcontroller's processing speed will never allow this system to be as fast as pure hardware multiplexers, it has been shown capable of clocking the inputs at frequencies over 2kHz using the code in the 'Controller' folder of this repository (this was with an external clock, of course - the internal clock runs from 0.25 to around 13.5 Hz).
 
 The expense of precision resistors for the input attenuators was avoided by measuring and selecting from 1% stock. It was found easy to achieve 0.1% equivalent tolerance in system gain.   
 
-The main multiplexer module draws 25mA from the 12V supply and 4mA from the -12V supply.
+The main multiplexer module draws 25mA from the 12V supply (80% of which is for the Arduino) and 4mA from the -12V supply.
 
 # System Expansion for Multi-Channel Operation
 
