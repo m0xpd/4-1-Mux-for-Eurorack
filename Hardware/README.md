@@ -1,6 +1,4 @@
-# This folder contains:
-
-Eagle files defining the schematics and PCB designs for the main multiplexer and the slave unit.
+This folder contains Eagle files defining the schematics and PCB designs for the main multiplexer and the slave unit.
 
 Kicad projects, describing Front Panels for the main multiplexer and the slave.
 
