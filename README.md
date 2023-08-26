@@ -2,7 +2,9 @@
 
 This project describes a multiplexer (similar to a "sequential switch") for electronic music applications.
 
-![MUX Front Panel](https://user-images.githubusercontent.com/3152962/222978851-0f6b30ae-8034-4069-99ba-0095303d9603.jpg)
+<p width=100%, align="center">
+<img width=50%, src="https://user-images.githubusercontent.com/3152962/222978851-0f6b30ae-8034-4069-99ba-0095303d9603.jpg">
+</p>
 
 The main system, implemented in a 12HP module, has two 4:1 multiplexers, each of which can switch audio or "CV" signals. The switching can be performed manually, under CV control, or synchronously with an external or internal clock. When clocked, the system can either i) follow the CV input requests (switching synchronously with the clock), ii) advance in a repetitive, finite arithmetic sequence through the inputs or iii) 'shuffle' the inputs randomly. When externally clocked, a "clock divide" feature is available and the system can clock on rising or falling edges of the external clock. The system can be set to cycle (sequentially or randomly) through the first 2, 3 or 4 of the available inputs and can be reset to input 1 on application of an external reset pulse.
 
@@ -20,7 +22,10 @@ The main multiplexer module draws 25mA from the 12V supply (80% of which is for 
 
 A 'Slave' system, also in 12HP, provides another two channels of multiplexing under the control of the main system. 
 
-![Slave Front Panel](https://user-images.githubusercontent.com/3152962/222979064-0ddcff23-9f6a-4de9-9029-83d069f950eb.jpg)
+<p width=100%, align="center">
+<img width=50%, src="https://user-images.githubusercontent.com/3152962/222979064-0ddcff23-9f6a-4de9-9029-83d069f950eb.jpg">
+</p>
+
 
 The 'X' channel of the slave unit also has potentiometers offering four voltages to its normalled inputs. 
 
