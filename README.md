@@ -30,5 +30,10 @@ The slave multiplexer module draws 4mA from the 12V supply and 3mA from the -12V
 
 Multiple 'slaves' can be driven by a single main system, allowing 4, 6, 8 ... channel 4:1 mutiplexer systems to be easily constructed - I now run a 6 channel 4:1 mux in my system...
 
-![MultiChannel](https://github.com/m0xpd/4-1-Mux-for-Eurorack/assets/3152962/db34bb32-4c8c-4d36-896e-9a7ef4184a69)
+<p width=100%, align="center">
+<img width=50%, src="https://github.com/m0xpd/4-1-Mux-for-Eurorack/assets/3152962/db34bb32-4c8c-4d36-896e-9a7ef4184a69">
+</p>
+
+
+
 
